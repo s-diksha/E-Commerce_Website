@@ -1,0 +1,167 @@
+
+body 
+{
+font-family: 'Arial', sans-serif;
+background-color: #f3f3f3;
+}
+.white {
+	color:white;
+}
+.top-header {
+	/*background-color: #96f0fc;*/
+	overflow: hidden;
+	height:25%;
+position:relative;
+padding:5px;
+padding-right:10px;
+}
+
+ .top-header ul { 
+ list-style-type:none; 
+ text-align: right; 
+ } 
+
+.top-header li{
+	text-decoration:none;	
+	margin:0px;
+	color:black;
+	display:inline;
+}
+.wrapper {
+max-width: 100%;
+margin: 0 auto;
+background-color: white; 
+padding: 8px;
+/* position:fixed;  */
+/* z-index:1000; */
+}
+
+header {background-color: #fff;
+height: 8%;
+max-width: 100%;
+padding: 20px;
+}
+/*
+#search {
+	 align:right; 
+width:50%; 
+padding:7px;
+border:1px solid #607d8b;
+
+}
+#submit{
+padding: 7px;
+border: 1px solid #607d8b;	
+ color:#607d8b;
+margin-left: -5px;
+}
+
+#img1 {
+	align:left;
+	<!-- float:left; -->
+  width:60px;
+  height: 60px;
+  background: #555;
+}
+*/
+/* END OF HOME PAGE 
+ CSS FOR ABOUT US */
+
+.carousel-inner > .item > img{
+margin: 0 auto; height:400px; 
+}
+/* .cust {padding-top:9%;} 
+.container_index, .navbar{ background-color: #96f0fc}
+*/
+li a
+{
+	color: #3a0000;	
+}
+
+h5 { font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+font-size:20px;
+font-weight: bold;
+}
+.thumbnail > img{
+width:150px;
+height:150px;
+}
+.thumbnail > .caption > p {
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+font-size:20px;
+}
+.thumbnail > .caption > h3 {
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+font-size:25px;
+}
+.btn btn-default{
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+font-size: 20px;
+}
+.green { color:green;}
+.dropdown { font-variant: small-caps; position:relative;}
+
+.footer { 
+width: 100%;
+/*background-color:#96f0fc;
+background:#96f0fc;*/
+height:250px;
+text-align:center;
+padding:10px;
+}
+
+.footer li{
+	list-style:none;
+	text-decoration:none;
+	text-align:center;
+	}
+	
+	.footer li a:hover{ text-decoration:none;}
+	
+	.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 16px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+}
+
+.navbar-toggle .icon-bar {
+	border:1px solid white; 
+}
+#cap_price {
+	font-size: 20%;
+}
+#prod_btn {
+	margin-top: -35px;
+}
+.saved-image img{
+	width:200px;
+	height:auto;
+}
+
+#login-form
+{
+	width:50%;
+	height:60%;
+	border:2px solid #000;
+	border-radius : 15px;
+	box-shadow: 7px 7px 15px rgba(0,0,0,0,6);
+	margin: 7% auto;
+	padding:15px;
+	background-color: #87CEEB;
+}
+.totals-table-header th{
+	text-align:center;
+}
+input.price_range
+{
+	width : 55px;
+}

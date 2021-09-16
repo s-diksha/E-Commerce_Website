@@ -1,0 +1,143 @@
+html,body,.wrapper_ship{
+    background: #f7f7f7;
+}
+.afix-1,.afix-1:hover{
+    color: #eee;
+}
+.ch_pp {
+    text-decoration: underline;
+}
+.ch_pp.sip {
+    margin-left: 10px;
+}
+.check-bc,
+.check-bc:hover {
+    color: #222;
+}
+.SuccessField {
+    border-color: #458845 !important;
+    -webkit-box-shadow: 0 0 7px #9acc9a !important;
+    -moz-box-shadow: 0 0 7px #9acc9a !important;
+    box-shadow: 0 0 7px #9acc9a !important;
+    background: #f9f9f9 url(../images/valid.png) no-repeat 98% center !important
+}
+
+.btn-xs{
+    line-height: 28px;
+}
+
+.asterix{
+    background:#f9f9f9 url(../images/red_asterisk.png) no-repeat 98% center !important;
+}
+
+/* images*/
+ol, ul {
+  list-style: none;
+}
+.hand {
+  cursor: pointer;
+  cursor: pointer;
+}
+
+/*
+ * BOOTSTRAP
+ */
+.container_ship{
+    border: none;
+	padding : 10px;
+}
+.panel-footer{
+    background:#fff;
+}
+.btn{
+    border-radius: 1px;
+}
+.btn-sm, .btn-group-sm > .btn{
+    border-radius: 1px;
+}
+.input-sm, .form-horizontal .form-group-sm .form-control{
+    border-radius: 1px;
+	
+}
+
+.panel-info {
+    border-color: #999;
+
+}
+/*
+.panel-heading {
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}*/
+.panel {
+    border-radius: 1px;
+}
+.panel-info > .panel-heading {
+    color: #eee;
+    border-color: #999;
+}
+.panel-info > .panel-heading {
+    background-image: linear-gradient(to bottom, #555 0px, #888 100%);
+}
+.address-body
+{
+	padding-left:15px;
+}
+hr {
+    border-color: #999 -moz-use-text-color -moz-use-text-color;
+}
+
+.btn-link {
+    color: #888;
+}
+
+hr{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/** MEDIA QUERIES **/
+@media only screen and (max-width: 989px){
+    .span1{
+        margin-bottom: 15px;
+        clear:both;
+    }
+}
+
+@media only screen and (max-width: 764px){
+    .inverse-1{
+        float:right;
+    }
+}
+
+@media only screen and (max-width: 586px){
+    .cart-titles{
+        display:none;
+    }
+    .panel {
+        margin-bottom: 1px;
+    }
+}
+
+.form-control {
+    border-radius: 1px;
+}
+
+@media only screen and (max-width: 486px){
+    .col-xss-12{
+        width:100%;
+    }
+    .cart-img-show{
+        display: none;
+    }
+    .btn-submit-fix{
+        width:100%;
+    }
+    
+}
+/*
+@media only screen and (max-width: 777px){
+    .container_ship{
+        overflow-x: hidden;
+    }
+}*/
